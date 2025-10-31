@@ -1,0 +1,112 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#root {
+  width: 100%;
+  height: 100vh;
+}
+
+/* Markdown 渲染样式 */
+.ant-bubble-content pre {
+  background: #f6f8fa;
+  border-radius: 6px;
+  padding: 12px;
+  overflow-x: auto;
+  margin: 8px 0;
+}
+
+.ant-bubble-content code {
+  background: #f6f8fa;
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+  font-size: 0.9em;
+}
+
+.ant-bubble-content pre code {
+  background: transparent;
+  padding: 0;
+}
+
+.ant-bubble-content p {
+  margin: 8px 0;
+}
+
+.ant-bubble-content ul,
+.ant-bubble-content ol {
+  margin: 8px 0;
+  padding-left: 24px;
+}
+
+.ant-bubble-content li {
+  margin: 4px 0;
+}
+
+.ant-bubble-content h1,
+.ant-bubble-content h2,
+.ant-bubble-content h3,
+.ant-bubble-content h4,
+.ant-bubble-content h5,
+.ant-bubble-content h6 {
+  margin: 16px 0 8px 0;
+  font-weight: 600;
+}
+
+.ant-bubble-content blockquote {
+  border-left: 4px solid #dfe2e5;
+  padding-left: 16px;
+  margin: 8px 0;
+  color: #6a737d;
+}
+
+.ant-bubble-content table {
+  border-collapse: collapse;
+  margin: 8px 0;
+  width: 100%;
+}
+
+.ant-bubble-content table th,
+.ant-bubble-content table td {
+  border: 1px solid #dfe2e5;
+  padding: 6px 13px;
+}
+
+.ant-bubble-content table th {
+  background: #f6f8fa;
+  font-weight: 600;
+}
+
+.ant-bubble-content a {
+  color: #1890ff;
+  text-decoration: none;
+}
+
+.ant-bubble-content a:hover {
+  text-decoration: underline;
+}

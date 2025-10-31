@@ -1,0 +1,20 @@
+{
+  "name": "claude-agent-client",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Interactive CLI client for Claude Agent SDK",
+  "scripts": {
+    "dev": "tsx client.ts",
+    "build": "tsc",
+    "start": "node dist/client.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/claude-agent-sdk": "latest",
+    "chalk": "^5.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.3",
+    "tsx": "^4.7.0"
+  }
+}
