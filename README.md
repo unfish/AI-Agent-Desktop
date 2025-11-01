@@ -1,8 +1,11 @@
 # Claude Agent Desktop
 
 基于 Tauri 2.0 + React + TypeScript + Claude Agent SDK 构建的桌面 AI 助手应用。
+
 项目核心目的是为了学习使用Claude Agent SDK来开发任意专属功能的AI Agent，该SDK不但内置了完整的模型调用、任务分解与调度能力，还提供了内置的本地文件读写Tools，能够提供基本的Claude Code同等能力。
+
 只要在其基础上增加新的Tools，和特定目的的系统提示词，就可以将它封装成一个功能完善的专属的AI Agent。
+
 而且兼容所有已经为Claude Code提供了兼容接口的国产模型平台的接口。 
 
 ## ✨ 功能特性
@@ -18,7 +21,9 @@
 ## 🔧 技术栈
 
 **桌面应用**：Tauri 2.0 + React 19 + TypeScript + Ant Design X + Vite
+
 **后端服务**：Node.js + Express + Claude Agent SDK + SSE（流式通信）
+
 **命令行客户端**：TypeScript + Claude Agent SDK + Chalk + Ora
 
 ## 📦 快速开始
